@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+}
+html{
+    font-size: 22px;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+form{
+    width: 100%;
+    position: fixed;
+    z-index: 90;
+    /* margin-top: 0; */
+}
+button{
+    width: 33.33%;
+    padding: 0.5rem;
+    font-size:1rem;
+}
+ul{
+   
+    padding: 3rem 2rem 1rem;
+}
+li{
+   margin-bottom: 1rem; 
+}
+.table-container{
+    width: 100%;
+    overflow-y: auto;
+    padding-top: 52px;
+
+}
+td{
+    border:1px solid black;
+    padding: 0.25rem;
+}
+.selected{
+    color: white;
+    background-color: black;
+}
